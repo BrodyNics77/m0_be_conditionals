@@ -41,11 +41,12 @@ end
 # Experiment with manipulating the value held within num_quarters
 # to make sure both conditions can be achieved.
 
-num_quarters = 0
-
-puts "I have enough money for a gumball"
-puts "I don't have enough money for a gumball"
-
+num_quarters = 25
+if number_quaters < 25
+  print ("I have enough money for a gumball")
+    else number_quaters > 25
+      print ("I don't have enought money for a gumball")
+end
 
 #####################
 # Using the variables defined below, write code that will tell you
@@ -63,3 +64,6 @@ puts "I don't have enough money for a gumball"
 
 cups_of_flour = 1
 has_sauce = true
+if cups_of_flour = 1, puts cups_of_flour = 2
+  if cups_of_flour = 2 && has_sauce = true, print "I can make a pizza"
+end
